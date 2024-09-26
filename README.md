@@ -5,9 +5,9 @@
 This project aims to provide a crop recommendation system using statistical analysis and machine learning techniques. The primary goal is to help farmers make informed decisions about which crops to plant based on various environmental and soil conditions. By leveraging historical data, the system can predict the best-suited crops for a specific location, thus optimizing yield and resource utilization.
 
 # Key Features
--Crop Prediction: Based on environmental factors like temperature, humidity, and soil composition.
+-Crop Prediction: Based on environmental factors like temperature, humidity, Ph, rainfall and soil composition.
 - Data-Driven Recommendations: Utilizes historical data to suggest the most suitable crops for each region.
-- Machine Learning Models: Employs algorithms such as Decision Trees, Random Forest, and Support Vector Machines for crop prediction.
+- Machine Learning Models: Employs algorithms such as Decision Trees, Random Forest, and Ensemble learning methods for crop prediction.
 - User-Friendly Interface: Easy to use for farmers and agricultural analysts.
 - Adaptability: Can be modified to include new data or additional crops and regions.
 - Visualization: Graphical representation of prediction results to help users understand the data better.
@@ -35,4 +35,5 @@ Libraries:
   - NumPy for numerical operations
   - Scikit-learn for machine learning models
   - Matplotlib and Seaborn for data visualization
-# Data Sources: CSV files, kaggle.
+# Data Sources: 
+CSV files, kaggle.
